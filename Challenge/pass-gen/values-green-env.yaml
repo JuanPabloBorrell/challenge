@@ -66,11 +66,11 @@ resources:
     memory: 128Mi
 livenessProbe:
   httpGet:
-    path: /
+    path: /5001
     port: http
 readinessProbe:
   httpGet:
-    path: /
+    path: /5001
     port: http
 autoscaling:
   enabled: true

@@ -35,8 +35,8 @@ securityContext:
   # runAsUser: 1000
 service:
   type: LoadBalancer
-  port: 5001
-  nodePort: 5002
+  port: 5010
+  nodePort: 5011
 ingress:
   enabled: false
   className: ""
